@@ -9,28 +9,34 @@ export async function changeLocale(locale: Locale) {
 }
 
 export async function getCurrentLocale() {
-  // if (!cookies().has(NEXT_LOCALE)) {
-  //   console.log("don't have cookie");
-
-  //   await changeLocale(defaultLocale);
-  // }
   return (cookies().get(NEXT_LOCALE)?.value as Locale) ?? defaultLocale;
 }
 
-async function t(key: string) {
+export async function getI18n(namespace: string = "messages") {
   const currentLocale = await getCurrentLocale();
   console.log(currentLocale);
 
-  const file = await import(`@/lang/${currentLocale}/messages.json`);
-  return (
-    key.split(".").reduce((acc, current) => acc && acc[current], file) ?? key
-  );
-}
+  let file: Record<string, string>;
+  try {
+    file = await import(`@/lang/${currentLocale}/${namespace}.json`);
+  } catch (error) {
+    console.log(error);
 
-export async function getI18n() {
-  return {
-    getCurrentLocale,
-    changeLocale,
-    t,
-  };
+    file = await import(`@/lang/${defaultLocale}/messages.json`);
+    console.error(
+      "locale or namespace not found. falling back to default locale"
+    );
+  }
+  console.log(file, typeof file);
+
+  const t = (key: string) =>
+    key
+      .split(".")
+      .reduce(
+        (acc: string | Record<string, string>, current: string) =>
+          typeof acc === "object" ? acc[current] : acc,
+        file
+      ) ?? key;
+
+  return { t };
 }

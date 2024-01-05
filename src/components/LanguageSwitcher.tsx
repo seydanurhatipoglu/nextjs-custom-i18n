@@ -12,11 +12,11 @@ export default function LanguageSwitcher() {
   }
 
   return (
-    <select onChange={handleLocaleChange} >
-      <option value="en" selected={currentLocale === "en"}>
+    <select onChange={handleLocaleChange} value={currentLocale} className="bg-transparent px-5 py-3 border border-white rounded-xl ">
+      <option value="en">
         English
       </option>
-      <option value="tr" selected={currentLocale === "tr"}>Türkçe</option>
+      <option value="tr">Türkçe</option>
     </select>
   )
 }

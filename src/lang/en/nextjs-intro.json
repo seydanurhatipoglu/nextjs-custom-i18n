@@ -1,0 +1,14 @@
+{
+  "nextjsIntro": "Next.js is a powerful React framework for building web applications.",
+  "ssrAndSsg": "It provides support for Server-Side Rendering (SSR) and Static Site Generation (SSG), offering enhanced performance and SEO benefits.",
+  "easyRouting": "One of Next.js's notable features is its easy-to-use routing system that simplifies navigation between pages.",
+  "automaticCodeSplitting": "Next.js automatically performs code splitting, optimizing the loading speed of your application.",
+  "cssInJs": "With built-in support for CSS-in-JS, styling becomes more modular and maintainable.",
+  "apiRoutes": "API Routes in Next.js allow you to create serverless functions and handle backend logic seamlessly.",
+  "richPlugins": "The ecosystem around Next.js is rich, with a variety of plugins and extensions available for different needs.",
+  "dynamicPages": "Dynamic routing enables the creation of pages with dynamic content based on parameters.",
+  "internationalization": "Next.js supports Internationalization (i18n), making it easy to localize your application for different languages.",
+  "optimizationFeatures": "The framework includes optimization features like automatic image optimization and lazy loading for improved performance.",
+  "communitySupport": "Next.js has a vibrant community that provides support, tutorials, and a wealth of resources for developers.",
+  "getStarted": "Getting started with Next.js is straightforward, and its documentation is comprehensive for both beginners and experienced developers."
+}

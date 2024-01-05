@@ -1,0 +1,14 @@
+{
+  "nextjsIntro": "Next.js, web uygulamaları oluşturmak için güçlü bir React çerçevesidir.",
+  "ssrAndSsg": "Sunucu Tarafı Render (SSR) ve Statik Site Oluşturma (SSG) desteği sağlar, performans ve SEO avantajları sunar.",
+  "easyRouting": "Next.js'nin dikkat çeken özelliklerinden biri, sayfalar arasında gezinmeyi basitleştiren kullanımı kolay yönlendirme sistemidir.",
+  "automaticCodeSplitting": "Next.js, otomatik olarak kod bölme işlemi gerçekleştirir ve uygulamanızın yükleme hızını optimize eder.",
+  "cssInJs": "Dahili CSS-in-JS desteğiyle, stil oluşturmak daha modüler ve bakımı daha kolay hale gelir.",
+  "apiRoutes": "Next.js'deki API Rotaları, serverless fonksiyonlar oluşturmanıza ve backend mantığını sorunsuz bir şekilde ele almanıza olanak tanır.",
+  "richPlugins": "Next.js etrafındaki ekosistem zengindir ve farklı ihtiyaçlar için çeşitli eklenti ve uzantılar bulunur.",
+  "dynamicPages": "Dinamik yönlendirme, parametrelere dayalı dinamik içerikle sayfalar oluşturmanıza olanak tanır.",
+  "internationalization": "Next.js, Uluslararasılaştırma (i18n) desteğine sahiptir ve uygulamanızı farklı dillere lokalize etmeyi kolaylaştırır.",
+  "optimizationFeatures": "Çerçeve, otomatik resim optimizasyonu ve geliştirilmiş performans için gecikmeli yükleme gibi optimizasyon özelliklerini içerir.",
+  "communitySupport": "Next.js, destek, öğreticiler ve geliştiriciler için geniş bir kaynak yelpazesi sunan canlı bir topluluğa sahiptir.",
+  "getStarted": "Next.js ile başlamak oldukça basittir ve hem başlangıç düzeyindeki hem de deneyimli geliştiriciler için kapsamlı belgelere sahiptir."
+}
